@@ -2,7 +2,8 @@
 
 The purpose of this project is to test an applicant's coding and software design
 abilities with an actual current project confronting the Core LMI team at Emsi.
-It is meant to take less than twenty hours to complete.
+The first section is meant to take less than eight hours to complete, and the
+optional second section is meant to take less than twelve hours.
 
 # Project Story
 
@@ -54,16 +55,17 @@ etc.
 
 # Project Requirements
 
-* Seven output files:
+* Section 1 (required): three output files
+    * 2013 MSA definitions with
+        * 2009 counties
+        * 2014 counties
+        * 2015 counties
+* Section 2 (optional): four output files
     * 2003 MSA definitions with
         * 1993 counties
         * 2002 counties
         * 2008 counties
         * 2009 counties
-    * 2013 MSA definitions with
-        * 2009 counties
-        * 2014 counties
-        * 2015 counties
 * Output files should have this header: child,parent,name
 * The following geography codes in the raw file should fit into the hierarchy:
     * `US000` (US total)
@@ -81,11 +83,13 @@ etc.
 
 # Recommendations
 
-I would start by creating the current definition file by downloading and parsing
-the current QCEW county-MSA crosswalk linked below. Then you can use the county
-version mappings to create the  other output files that are based on the older
-county definitions.
+## Section 1
+I would start by creating the current definition file by downloading
+and parsing the current QCEW county-MSA crosswalk linked below. Then you can use
+the county version mappings to create the  other output files that are based on
+the older county definitions.
 
+## Section 2
 The 2003-based definitions will be harder, but you may be able to re-create
 QCEW's current crosswalk using the 2013 MSA delineation file and then apply
 the same transformations to the 2003 MSA delineation file to create an old
@@ -110,8 +114,9 @@ crosswalk.
 * If you find any requirements to be ambiguous, go with your best guess and
   document your decision. We are not intentionally being ambiguous, but we do
   want to evaluate your persistence in the face of roadblocks.
-* If you reach twenty hours of work on the project, take note of where you are
-  and what you were planning to do next, and submit your work in progress.
+* If you reach eight hours of work on the project, take note of where you are
+  and what you were planning to do next, and submit your work in progress. You
+  may also work up to twenty hours if you plan to complete both sections.
 
 # Submission Process
 
