@@ -54,29 +54,29 @@ etc.
 # Project Requirements
 
 * Seven output files:
- * 2003 MSA definitions with
-  * 1993 counties
-  * 2002 counties
-  * 2008 counties
-  * 2009 counties
- * 2013 MSA definitions with
-  * 2009 counties
-  * 2014 counties
-  * 2015 counties
+    * 2003 MSA definitions with
+        * 1993 counties
+        * 2002 counties
+        * 2008 counties
+        * 2009 counties
+    * 2013 MSA definitions with
+        * 2009 counties
+        * 2014 counties
+        * 2015 counties
 * Output files should have this header: child,parent,name
 * The following geography codes in the raw file should fit into the hierarchy:
- * US000 (US total)
- * USMSA (Sum of all metropolitan areas)
- * USNMS (Sum of all non-metropolitan counties)
- * USCMS (Sum of all combined metro areas)
- * CS### (Combined metro areas)
- * C#### (Metro areas - in older files they might be formatted M####)
- * ##### (counties, including ##999 "Unknown Or Undefined" counties)
+    * US000 (US total)
+    * USMSA (Sum of all metropolitan areas)
+    * USNMS (Sum of all non-metropolitan counties)
+    * USCMS (Sum of all combined metro areas)
+    * CS### (Combined metro areas)
+    * C#### (Metro areas - in older files they might be formatted M####)
+    * ##### (counties, including ##999 "Unknown Or Undefined" counties)
 * Do not include:
- * ##000 (states)
- * ##996 (Overseas Locations)
- * ##997 (Multicounty, Not Statewide)
- * ##998 (Out-of-State)
+    * ##000 (states)
+    * ##996 (Overseas Locations)
+    * ##997 (Multicounty, Not Statewide)
+    * ##998 (Out-of-State)
 
 # Recommendations
 
