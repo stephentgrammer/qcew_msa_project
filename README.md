@@ -83,8 +83,8 @@ etc.
 
 I would start by creating the current definition file by downloading and parsing
 the current QCEW county-MSA crosswalk linked below. Then you can use the county
-version mappings to create the three other output files that are based on the
-older county definitions.
+version mappings to create the  other output files that are based on the older
+county definitions.
 
 The 2003-based definitions will be harder, but you may be able to re-create
 QCEW's current crosswalk using the 2013 MSA delineation file and then apply
@@ -108,7 +108,7 @@ crosswalk.
   to compile and run your code.
 * Elegance and performance will both be taken into consideration.
 * If you find any requirements to be ambiguous, go with your best guess and
-  document you decision. We are not intentionally being ambiguous, but we do
+  document your decision. We are not intentionally being ambiguous, but we do
   want to evaluate your persistence in the face of roadblocks.
 * If you reach twenty hours of work on the project, take note of where you are
   and what you were planning to do next, and submit your work in progress.
