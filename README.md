@@ -6,12 +6,12 @@ It is meant to take less than twenty hours to complete.
 
 # Project Story
 
-QCEW is an important data source for Emsi. We base nearly all our derived
-employment estimates on cleaned and unsuppressed data from QCEW. In the past, we
-have filtered out any QCEW data that is not published at the county, state, or
-national level, but have recently realized that we could improve the constraints
-on our unsuppression models if we retained the data that QCEW publishes by
-metropolitan area.
+The Quarterly Census of Employment and Wages (QCEW) is an important data source
+for Emsi. We base nearly all our derived employment estimates on cleaned and
+unsuppressed data from QCEW. In the past, we have filtered out any QCEW data
+that is not published at the county, state, or national level, but have
+recently realized that we could improve the constraints on our unsuppression
+models if we retained the data that QCEW publishes by metropolitan area.
 
 Metropolitan areas consist of counties but often do not fit within a single
 state, so we are unable to fit them into a single hierarchical structure
@@ -44,10 +44,10 @@ USMSA,US000,U.S. Metropolitan Statistical Areas (combined)
 USNMS,US000,U.S. Nonmetropolitan Area Counties (combined)
 USCMS,USMSA,U.S. Combined Statistical Areas (combined)
 CS###,USCMS,<CSA name here>
-M####,CS###,<MSA name here>
-M####,USMSA,<MSA name here>
-M####,USNMS,<MSA name here>
-#####,M####,<county name here>
+C####,CS###,<MSA name here>
+C####,USMSA,<MSA name here>
+C####,USNMS,<MSA name here>
+#####,C####,<county name here>
 etc.
 etc.
 ```
