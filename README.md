@@ -2,6 +2,7 @@
 
 The purpose of this project is to test an applicant's coding and software design
 abilities with an actual current project confronting the Core LMI team at Emsi.
+It is meant to take less than twenty hours to complete.
 
 # Project Story
 
@@ -109,6 +110,8 @@ crosswalk.
 * If you find any requirements to be ambiguous, go with your best guess and
   document you decision. We are not intentionally being ambiguous, but we do
   want to evaluate your persistence in the face of roadblocks.
+* If you reach twenty hours of work on the project, take note of where you are
+  and what you were planning to do next, and submit your work in progress.
 
 # Submission Process
 
